@@ -4,7 +4,7 @@ import { useOthers, useSelf } from "@/liveblocks.config";
 import UserAvatar from "./User-avatar";
 import { getColor } from "@/lib/utils";
 
-const MAX_SHOWN_USERS = 0;
+const MAX_SHOWN_USERS = 2;
 
 const Participants = () => {
   const users = useOthers();

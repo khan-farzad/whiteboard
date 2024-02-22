@@ -105,7 +105,7 @@ export type CanvasState =
     }
     | {
         mode: CanvasMode.Resizing;
-        originBound: XYWH;
+        initialBounds: XYWH;
         corner: Side;
     }
     | {
@@ -125,3 +125,5 @@ export enum CanvasMode {
     Translating,
     SelectionNet
 }
+
+export type Layer= TextLayer| RectangleLayer| EllipseLayer| PathLayer|NoteLayer;

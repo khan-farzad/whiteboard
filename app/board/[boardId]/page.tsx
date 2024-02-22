@@ -1,4 +1,4 @@
-import Canvas from "./_components/Canvas"
+import { Canvas } from './_components/Canvas'
 import {Room} from '@/components/room'
 import Loading from "./_components/Loading"
 interface BoardIdProps {
